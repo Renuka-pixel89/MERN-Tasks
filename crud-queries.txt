@@ -1,9 +1,9 @@
 1.Create:
 
 db.student.insertOne({
-  name: "Renuka",
+  name: "Dolly",
   age: 30,
-  email: "renuka@gmail.com",
+  email: "dolly@gmail.com",
   place: "Andhra",
   Gender: "Female",
   pincode: 522005
@@ -19,7 +19,7 @@ db.student.insertMany([
 
 db.student.find();
 
-db.student.findOne({ name: "Renuka" });
+db.student.findOne({ name: "Dolly" });
 
 db.student.find({ age: { $gt: 30 } });
 
